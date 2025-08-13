@@ -22,6 +22,23 @@ const products = [{
         count: 56
     },
     price: 799
+},
+{
+  image : "https://www.ushafans.com/sites/default/files/MicrosoftTeams-image%20%288%29.png",
+  name: "Orient Electric Apex-FX 1200mm Ceiling Fan for Home",
+  rating :{
+    star: 4.5,
+    count:200
+  },
+  price : 1399
+},{
+  image: "https://m.media-amazon.com/images/I/6149-ZNfTKL._SY675_.jpg",
+  name: "Nike Women Running Shoes",
+  rating :{
+    star: 4,
+    count:458
+  },
+  price : 3999
 }]
     let productsHTML=``;
 products.forEach((product) => {
