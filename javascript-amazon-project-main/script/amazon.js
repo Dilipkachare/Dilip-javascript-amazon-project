@@ -48,6 +48,8 @@
 //   },
 //   price: 999
 // }]
+import {cart} from '../data/cart.js';
+import{products} from '../data/products1.js';
 let productsHTML = ``;
 products.forEach((product) => {
   productsHTML = productsHTML + `
